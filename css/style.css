@@ -1,0 +1,116 @@
+/*
+colors used:
+white: #ffffff
+light blue: #86c2ff
+dark blue: #0b08a2
+orange: #f05307
+off-black: #1d1d1d
+*/
+body {
+    background-color: #ffffff;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #1d1d1d;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #1d1d1d;
+}
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.0em;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1d1d1d;
+}
+img {
+    width: 100%;
+}
+
+a {
+    color: #0b08a2;
+    text-decoration: none;
+}
+a:visited {
+    color: #c60e01;
+
+}
+a:hover,
+a:focus {
+    color: #f05307;
+    text-decoration: underline;
+}
+a:active {
+    color: #86c2ff;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0b08a2;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 45px;
+    border-bottom: 2px solid grey;
+    transition: 0.2s opacity;
+}
+.button:visited {
+    background-color: #86c2ff;
+    color: #0b08a2
+}
+.button:hover,
+.button:focus {
+    opacity: 0.8;
+    text-decoration: none;
+}
+.button:active {
+    background-color: #f05307;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.button.contact {
+    background-color: transparent;
+    color: #0b08a2;
+    text-transform: uppercase;
+    border: 2px solid #0b08a2;
+}
+.button.contact:visited {
+    background-color: transparent;
+    color: #0b08a2; 
+    text-transform: uppercase;
+    border: 2px solid #86c2ff;
+}
+.button.contact:hover,
+.button.contact:focus {
+    background-color: #f05307;
+    color: #ffffff;
+    border: 2px solid #f05307
+}
+.button.contact:active {
+    background-color: #0b08a2;
+    color: #ffffff;
+    border: 2px solid #0b08a2;
+}
