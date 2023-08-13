@@ -13,11 +13,11 @@
     <title>K Williams UX Designer Vancouver, Canada</title>
 </head>
 <body>
-    <header id="hero">
-        <div>
-            <img src="img/logo.png" alt="Kate Williams">
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Kate Williams" class="logo">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -25,37 +25,43 @@
             </nav>
         </div>
     </header>
-    <main id="work">
-        <div>
-            <div><h1>Hi, my name is Kate Williams</h1>
-            <span>I'm a UX Designer from Vancouver, Canada</span>
-            <p>I have a background in visual arts and a desire to bring great, functional design to the masses.</p>
+    <main>
+        <div id="hero">
+            <div class="container">
+                <h1>Hi, my name is Kate Williams</h1>
+                <span>I'm a UX Designer from Vancouver, Canada</span>
+                <p>I have a background in visual arts and a desire to bring great, functional design to the masses.</p>
             </div>
-            <div><h2>My Work</h2>
-                <div><!--open row that holds 2 columns for project -->
+        </div>
+        <div id="work">
+            <div class="container"><h2>My Work</h2>
+                <div class="row"><!--open row that holds 2 columns for project -->
                     <div><picture>
-                    <source srcset="img/gogofoodie/portfoliosite-gogofoodieimage@1x.jpg" media="(max-width:767px)">
-                    <img src="img/gogofoodie/portfoliosite-gogofoodieimage@2x.jpg" alt="Go-Go Foodie image">
-                    </picture></div>
-                    <div><h3>Go-Go Foodie</h3>
-                    <p>Go-Go Foodie is a flashcard app that helps people understand the foods and menus in different languages, as a direct translation often doesn’t make sense or explain what the dish is.  This project introduced me to user research, user personas, wireframing, and information architecture.</p>
-                    <a href="#" class="button">Read more</a></div>
-                </div>
-                <div>
-                   <div><picture>
-                    <source srcset="img/plantchamps/portfoliosite-plantchampsimage@1x.jpg" media="(max-width:767px)">
-                    <img src="img/plantchamps/portfoliosite-plantchampsimage@2x.jpg" alt="Plant Champs image">
-                    </picture></div>
-                    <div><h3>Plant Champs</h3>
-                    <p>The Plant Champs app connects people with experts in plant care, landscape design, and other specialties to help answer their plant-related questions.  This project required comparative research, building user personas and flows, making wireframes from low to high-fidelity, usability testing, and creating a prototype.</p>
-                    <a href="plantchamps.html" class="button">Read more</a>
+                        <source srcset="img/gogofoodie/portfoliosite-gogofoodieimage@1x.jpg" media="(max-width:767px)">
+                        <img src="img/gogofoodie/portfoliosite-gogofoodieimage@2x.jpg" alt="Go-Go Foodie image">
+                        </picture>
                     </div>
-                </div>    
+                    <div><h3>Go-Go Foodie</h3>
+                        <p>Go-Go Foodie is a flashcard app that helps people understand the foods and menus in different languages, as a direct translation often doesn’t make sense or explain what the dish is.  This project introduced me to user research, user personas, wireframing, and information architecture.</p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                </div>
+                <div class="row">
+                   <div><picture>
+                        <source srcset="img/plantchamps/portfoliosite-plantchampsimage@1x.jpg" media="(max-width:767px)">
+                        <img src="img/plantchamps/portfoliosite-plantchampsimage@2x.jpg" alt="Plant Champs image">
+                        </picture>
+                    </div>
+                    <div><h3>Plant Champs</h3>
+                        <p>The Plant Champs app connects people with experts in plant care, landscape design, and other specialties to help answer their plant-related questions.  This project required comparative research, building user personas and flows, making wireframes from low to high-fidelity, usability testing, and creating a prototype.</p>
+                        <a href="plantchamps.html" class="button">Read more</a>
+                    </div>
+                </div>   
             </div>
         </div>
     </main>
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2>Get in Touch</h2>
             <p>Would you like to get in touch? Call <a href="tel:+015555555555">+01(555)555-5555.</a>  Prefer sending an email?</p>
             <div>

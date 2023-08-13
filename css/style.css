@@ -1,11 +1,15 @@
 /*
 colors used:
 white: #ffffff
+light light blue: #bcddff
 light blue: #86c2ff
 dark blue: #0b08a2
 orange: #f05307
 off-black: #1d1d1d
 */
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #ffffff;
     font-family: 'Hind', sans-serif;
@@ -113,4 +117,138 @@ a:active {
     background-color: #0b08a2;
     color: #ffffff;
     border: 2px solid #0b08a2;
+}
+
+/* Layout styling */
+
+header {
+    background-color: #bcddff;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #0b08a2;
+    position: fixed;
+    width: 100%;
+}
+.container {
+    padding: 0 15px;
+}
+.row {
+    margin: 25px 25px; /* 25 px top and bottom, 25 px left and right */
+}
+#work .row {
+    padding-bottom: 25px; 
+    border-bottom: 1px solid #4a4a4a;
+}
+#hero h1 {
+    text-align: center; /*Centers text */
+}
+.center {
+    text-align: center;
+}
+.logo {
+    max-width: 250px;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0b08a2;
+}
+nav > ul > li > a:visited {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c60e01;
+}
+nav > ul > li > a:hover, nav > ul > li > a:focused {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f05307;
+}
+nav > ul > li > a:active {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0b08a2;
+}
+#hero {
+    background-color: #bcddff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+/* #header .box-shadow{
+	
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #BCDEFF; 
+	border: solid #BDBDBD 0; 
+	box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3)  ; 
+}*/
+main {
+    padding-top: 176px;
+}
+#work {
+    background-color: #ffffff;
+    display: inline;
+}
+#work h2 {
+    text-align: center;
+}
+#work picture {
+    width: 60%;
+    float: left;
+}
+#row {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+/* #row h3, #row p, #row a {
+    position: absolute;
+    right: 0;
+} */
+footer {
+    background-color: #bcddff;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+footer > div > div > a > svg {
+    max-width: 80px;
+    padding: 20px 10px;
+}
+#profile {
+    width: 80%;
+    margin: 0 auto;
+}
+#about h1 {
+    text-align: center;
+    padding: 10px;
+}
+#story {
+    width: 60%;
+}
+#tools {
+    width: 40%;
+}
+#plant-champs h1, #plant-champs h2 {
+    text-align: center;
+    padding: 10px;
 }
