@@ -210,10 +210,6 @@ main {
 #work h2 {
     text-align: center;
 }
-#work picture {
-    width: 60%;
-    float: left;
-}
 #row {
     display: inline-block;
     width: 100%;
