@@ -8,21 +8,25 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45baac5bec.js" crossorigin="anonymous"></script>
     <title>K Williams UX Designer Vancouver, Canada</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="img/logo.png" alt="Kate Williams" class="logo">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>    
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img src="img/logo.png" alt="Kate Williams" class="logo">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>    
+                </nav>
+            </div>    
         </div>
     </header>
     <main>
@@ -712,6 +716,7 @@
             <p>Copyright Kate Williams 2023</p>
         </div>
     </footer>
+    <script   src="https://code.jquery.com/jquery-3.7.0.min.js"   integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>

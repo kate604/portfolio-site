@@ -123,8 +123,7 @@ a:active {
 
 header {
     background-color: #bcddff;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     border-bottom: 3px solid #0b08a2;
     position: fixed;
     width: 100%;
@@ -146,18 +145,12 @@ header {
     text-align: center;
 }
 .logo {
-    max-width: 250px;
-}
-nav {
-    display: inline-block;
-    width: 100%;
+    max-width: 150px;
 }
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-nav > ul > li {
-    display: inline-block;
+    margin: 0;
 }
 nav > ul > li > a {
     padding: 0 15px;
@@ -183,6 +176,30 @@ nav > ul > li > a:active {
     font-weight: 700;
     color: #0b08a2;
 }
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
 #hero {
     background-color: #bcddff;
     padding: 20px 0;
@@ -201,7 +218,7 @@ nav > ul > li > a:active {
 	-moz-box-shadow: 0 9px 20px rgba(0, 0, 0, 0.3)  ; 
 }*/
 main {
-    padding-top: 176px;
+    padding-top: 91px;
 }
 #work {
     background-color: #ffffff;
@@ -251,10 +268,25 @@ footer > div > div > a > svg {
         text-align: unset;
         padding: 20px 0 13px;
     }
+    .logo {
+        max-width: 250px
+    }
     nav {
         width: auto;
         float: right;
         margin-top: 30px;
+    }
+    nav > ul {
+        margin: 1em 0;
+    }
+    nav > ul > li {
+        display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
     }
     main {
         padding-top: 155px;
