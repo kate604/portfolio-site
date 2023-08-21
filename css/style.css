@@ -294,9 +294,9 @@ footer > div > div > a > svg {
     body {
         font-size: 20px;
     }
-    /* #hero span {
+    #hero span {
         display: block;
-    } */
+    } 
     .col-md-6 {
         width: 50%;
     }
